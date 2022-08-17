@@ -10,6 +10,9 @@ class Cat {
     }
 
     // method 2
+    whoIsOwner() {
+        console.log("Meow. My owner is", this.owner)
+    }
     // method 3
 
 
@@ -23,3 +26,6 @@ console.log(cat2)
 
 cat1.talk();
 cat2.talk();
+
+cat1.whoIsOwner();
+cat2.whoIsOwner();
