@@ -19,7 +19,7 @@ class Cat {
 }
 
 class Pirate {
-    constructor(name, favoriteItem, needsVitaminC) {
+    constructor(name = " No name", favoriteItem = "Gold", needsVitaminC = false) {
         this.name = name;
         this.favoriteItem = favoriteItem;
         this.needsVitaminC = needsVitaminC;
@@ -52,12 +52,12 @@ let piratesOfBlackPearl = [];
 
 // name, favoriteItem, needsVitaminC
 
-piratesOfJollyRoger.push(new Pirate());
-piratesOfJollyRoger.push(new Pirate());
-piratesOfJollyRoger.push(new Pirate());
+piratesOfJollyRoger.push(new Pirate("Coldsteel", "Nintendo Switch", false));
+piratesOfJollyRoger.push(new Pirate("Monkey", "Adventure", false));
+piratesOfJollyRoger.push(new Pirate("Samuel", "Socks", true));
 
-piratesOfBlackPearl.push(new Pirate());
-piratesOfBlackPearl.push(new Pirate());
-piratesOfBlackPearl.push(new Pirate());
+piratesOfBlackPearl.push(new Pirate("Goldtooth", "Cupcakes", true));
+piratesOfBlackPearl.push(new Pirate("Dr. Aye", "Medicine", false));
+piratesOfBlackPearl.push(new Pirate("President of the World", "Mars", false));
 
 // console.log(piratesOfBlackPearl.length);
