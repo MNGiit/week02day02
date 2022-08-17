@@ -16,10 +16,18 @@ class Cat {
     whoIsOwner() {
         console.log("Meow. My owner is", this.owner)
     }
-    // method 3
-
-
 }
+
+class Pirate {
+    constructor() {
+
+    }
+}
+
+// create 3 properties that are set by the constructor
+// create 3 methods
+// instantiate 2 arrays of 3 pirates, name the arrays after your favorite pirate ships, jollyRoger and blackPearl
+// loop over each array and print 3 properties of each pirate
 
 let cat1 = new Cat("Garfield", "Jon", "I never met a lasagna I didn't like.");
 let cat2 = new Cat("Stray Cat", "David Bowie", "Hsssssss");
