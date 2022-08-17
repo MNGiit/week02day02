@@ -19,15 +19,13 @@ class Cat {
 }
 
 class Pirate {
-    constructor() {
-
+    constructor(name, favoriteItem, needsVitaminC) {
+        this.name = name;
+        this.favoriteItem = favoriteItem;
+        this.needsVitaminC = needsVitaminC;
     }
 }
 
-// create 3 properties that are set by the constructor
-// create 3 methods
-// instantiate 2 arrays of 3 pirates, name the arrays after your favorite pirate ships, jollyRoger and blackPearl
-// loop over each array and print 3 properties of each pirate
 
 let cat1 = new Cat("Garfield", "Jon", "I never met a lasagna I didn't like.");
 let cat2 = new Cat("Stray Cat", "David Bowie", "Hsssssss");
@@ -43,3 +41,23 @@ cat2.whoIsOwner();
 
 cat1.talk();
 cat2.talk();
+
+// create 3 properties that are set by the constructor
+// create 3 methods
+// instantiate 2 arrays of 3 pirates, name the arrays after your favorite pirate ships, jollyRoger and blackPearl
+// loop over each array and print 3 properties of each pirate
+
+let piratesOfJollyRoger = [];
+let piratesOfBlackPearl = [];
+
+// name, favoriteItem, needsVitaminC
+
+piratesOfJollyRoger.push(new Pirate());
+piratesOfJollyRoger.push(new Pirate());
+piratesOfJollyRoger.push(new Pirate());
+
+piratesOfBlackPearl.push(new Pirate());
+piratesOfBlackPearl.push(new Pirate());
+piratesOfBlackPearl.push(new Pirate());
+
+// console.log(piratesOfBlackPearl.length);
