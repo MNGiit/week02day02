@@ -55,11 +55,6 @@ cat2.whoIsOwner();
 cat1.talk();
 cat2.talk();
 
-// create 3 properties that are set by the constructor
-// create 3 methods
-// instantiate 2 arrays of 3 pirates, name the arrays after your favorite pirate ships, jollyRoger and blackPearl
-// loop over each array and print 3 properties of each pirate
-
 let jollyRoger = [];
 let blackPearl = [];
 
@@ -99,5 +94,5 @@ blackPearl.push(new Pirate("President of the World", "Mars", false));
 // const array1 = ['a', 'b', 'c'];
 // array1.forEach(element => console.log(element));
 
-jollyRoger.forEach(e => console.log(e));
-blackPearl.forEach(e => console.log(e));
+jollyRoger.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
+blackPearl.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
