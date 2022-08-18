@@ -130,3 +130,42 @@ class Item {
     }
 }
 
+const WAFFLES = new Item("Waffles", "4.99");
+const PANCAKES = new Item("Pancakes", "7.99");
+const HASHBROWNS = new Item("Hashbrowns", "1.99");
+const EGGSANDWICH = new Item("Egg sandwich", "2.49");
+
+const FRENCHFRIES = new Item("French fries", "4.99");
+
+const RATBURGER = new Item("Rat burger", "0.49");
+const PIZZA = new Item("Pizza", "3.99");
+const TACO = new Item("Taco", "6.99");
+const TOMATO_SOUP = new Item("Tomato Soup", "7.99");
+const PEA_SOUP = new Item("Pea Soup", "7.99");
+const RAMEN = new Item("RAMEN", "7.99");
+
+const COOKIES = new Item("Cookies", "7.99");
+const CHOCOLATE_CAKE = new Item("Chocolate Cake", "12.99");
+const STRAWBERRY_CAKE = new Item("Strawberry Cake", "10.99");
+const JAWBREAKER = new Item ("Jawbreaker", "0.99");
+const BUBBLEGUM = new Item("Bubblegum", "0.05");
+
+const WATER = new Item("Water", "9.99");
+const CHOCOLATE_MILK = new Item("Chocolate milk", "2.99");
+const STRAWBERRY_MILK = new Item("Strawberry milk", "2.49");
+const MILK = new Item("Milk", "2.49")
+const TEA = new Item("Tea", "0.49");
+const PEACH_SODA = new Item("Peach Soda", "10.99");
+
+const MENU = [];
+
+// MENU [Brunch, Lunch, Dinner,Desert, Beverages Entrees,Appetizers]
+
+MENU.push(new Menu("Brunch", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+MENU.push(new Menu("Lunch", [RATBURGER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+MENU.push(new Menu("Dinner", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+MENU.push(new Menu("Dessert", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+MENU.push(new Menu("Beverages", [WATER, CHOCOLATE_MILK, STRAWBERRY_MILK, MILK, TEA, PEACH_SODA]))
+MENU.push(new Menu("Entrees", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+MENU.push(new Menu("Appetizers", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
+// console.log(MENU[0]);
