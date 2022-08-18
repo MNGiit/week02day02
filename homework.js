@@ -96,3 +96,25 @@ blackPearl.push(new Pirate("President of the World", "Mars", false));
 
 jollyRoger.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
 blackPearl.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
+
+
+// Create A Restaurant Site -[HTML,CSS,JS]
+// Create the Following Objects:
+// MENU [Brunch, Lunch, Dinner,Desert, Beverages Entrees,Appetizers]
+// --> Each menu item must have MINIMUM 6items with at least 4attributes/properties..
+
+class Menu {
+    constructor(name, items) {
+        this.name = name;
+        this.items = items;
+    }
+    getMenuName() { return this.name; }
+    getMenuItems() {
+        let onMenu = [];
+        // jollyRoger.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
+        this.items.forEach(e => onMenu.push(e));
+        return onMenu;
+    }
+}
+
+c
