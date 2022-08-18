@@ -60,19 +60,44 @@ cat2.talk();
 // instantiate 2 arrays of 3 pirates, name the arrays after your favorite pirate ships, jollyRoger and blackPearl
 // loop over each array and print 3 properties of each pirate
 
-let piratesOfJollyRoger = [];
-let piratesOfBlackPearl = [];
+let jollyRoger = [];
+let blackPearl = [];
 
 // name, favoriteItem, needsVitaminC
 
-piratesOfJollyRoger.push(new Pirate("Coldsteel", "Nintendo Switch", false));
-piratesOfJollyRoger.push(new Pirate("Monkey", "Adventure", false));
-piratesOfJollyRoger.push(new Pirate("Samuel", "Socks", true));
+jollyRoger.push(new Pirate("Coldsteel", "Nintendo Switch", false));
+jollyRoger.push(new Pirate("Monkey", "Adventure", false));
+jollyRoger.push(new Pirate("Samuel", "Socks", true));
 
-piratesOfBlackPearl.push(new Pirate("Goldtooth", "Cupcakes", true));
-piratesOfBlackPearl.push(new Pirate("Dr. Aye", "Medicine", false));
-piratesOfBlackPearl.push(new Pirate("President of the World", "Mars", false));
+blackPearl.push(new Pirate("Goldtooth", "Cupcakes", true));
+blackPearl.push(new Pirate("Dr. Aye", "Medicine", false));
+blackPearl.push(new Pirate("President of the World", "Mars", false));
 
 // console.log(piratesOfBlackPearl.length);
 // console.log(piratesOfJollyRoger[0].needOranges());
 // console.log(piratesOfJollyRoger[2].needOranges());
+
+// const letters = ["a","b","c"];
+// for (const x of letters) {
+//   // code block to be executed
+// }
+
+// let sum = 0;
+// const numbers = [65, 44, 12, 4];
+// numbers.forEach(myFunction);
+
+// function myFunction(item) {
+//   sum += item;
+// }
+
+// const readProperties = (item) => {
+//     console.log(item);
+// readProperties(piratesOfBlackPearl[0])
+
+// } // doesn't work when using .foreach
+
+// const array1 = ['a', 'b', 'c'];
+// array1.forEach(element => console.log(element));
+
+jollyRoger.forEach(e => console.log(e));
+blackPearl.forEach(e => console.log(e));
