@@ -24,6 +24,19 @@ class Pirate {
         this.favoriteItem = favoriteItem;
         this.needsVitaminC = needsVitaminC;
     }
+
+    whatIsName() {
+        return "My name is " + this.name;
+    }
+
+    whatIsFavoriteItem() {
+        return "Arrrgh, my favorite thing to take is: " + this.favoriteItem;
+    }
+
+    needOranges() {
+        // return this.needsVitaminC ? str = "I walk the plank for apple juice" : str = "I need to buy some oranges" 
+        return this.needsVitaminC ? "I walk the plank for apple juice" : "I need to buy some oranges" 
+    }
 }
 
 
@@ -61,3 +74,5 @@ piratesOfBlackPearl.push(new Pirate("Dr. Aye", "Medicine", false));
 piratesOfBlackPearl.push(new Pirate("President of the World", "Mars", false));
 
 // console.log(piratesOfBlackPearl.length);
+// console.log(piratesOfJollyRoger[0].needOranges());
+// console.log(piratesOfJollyRoger[2].needOranges());
