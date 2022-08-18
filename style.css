@@ -1,0 +1,29 @@
+.banner {
+    text-align: center;
+    display: flex;
+    height: 450px;
+    width: 100%;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+}
+
+.menu {
+    display: flex;
+    border: solid green;
+}
+
+.menuName {
+    border: solid red;
+}
+
+.items {
+    border: solid gray;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    border: solid blue;
+}
