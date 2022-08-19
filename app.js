@@ -18,9 +18,6 @@ const MENU = {
     appetizers
 }
 
-
-// console.log(MENU)
-// test if integer can be added to string
 console.log(".item" + (1 + 1));
 
 const displayBrunchMenu = () => {
@@ -36,24 +33,4 @@ const displayBrunchMenu = () => {
 function changeInnerHTML(text, target) {
     let aim = document.querySelector(target);
     aim.innerHTML = text;
-}
-
-// let onMenu = [];
-// // jollyRoger.forEach(e => console.log(e.name, e.favoriteItem, e.needsVitaminC));
-// this.items.forEach(e => onMenu.push(e));
-// return onMenu;
-
-// displayBrunchMenu();
-
-const displaySpecials = () => {
-    let mainTitle = document.querySelector(""); // put . inside "" if it's class
-    // mainTitle.addEventListener("click", () => {
-    //    mainTitle.innerText = MENU.Salad.small;
-    // })
-    // mainTitle.innerHTML = MENU.Salad.small
-}
-
-const doSomething = () => {
-    // let target = document.querySelector('mag');
-    // target.innerHTML = drinks.soda
 }
