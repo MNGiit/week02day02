@@ -169,3 +169,17 @@ MENU.push(new Menu("Beverages", [WATER, CHOCOLATE_MILK, STRAWBERRY_MILK, MILK, T
 MENU.push(new Menu("Entrees", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
 MENU.push(new Menu("Appetizers", [WATER, COOKIES, PIZZA, HASHBROWNS, FRENCHFRIES, MILK]))
 // console.log(MENU[0]);
+
+
+const displaySpecials = () => {
+    let mainTitle = document.querySelector(""); // put . inside "" if it's class
+    // mainTitle.addEventListener("click", () => {
+    //    mainTitle.innerText = MENU.Salad.small;
+    // })
+    // mainTitle.innerHTML = MENU.Salad.small
+}
+
+const doSomething = () => {
+    // let target = document.querySelector('mag');
+    // target.innerHTML = drinks.soda
+}
